@@ -25,13 +25,13 @@ Same server using docker with different port for testing properly. Port:
 ## build commands 
 
 ```bash
-docker build -t docker-flask-app .
+sudo docker build -t docker-flask-app .
 ```
 
 
 ## start commands
 
 ```bash
-docker run -p 8080:5000 docker-flask-app
+sudo docker run -p 8080:5000 docker-flask-app
 ```
 
