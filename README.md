@@ -14,6 +14,7 @@ pip install -r requirements.txt
 ## start commands
 
 ```bash
+source ./venv/bin/activate
 python app.py
 ```
 
